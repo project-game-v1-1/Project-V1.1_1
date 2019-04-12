@@ -557,9 +557,6 @@ namespace Игра_V1._1
                     Ba3.IsEnabled = true;
                     Ba3.Opacity = 100;
                 }
-
-                int a = 0;
-
             }
         }
     }
