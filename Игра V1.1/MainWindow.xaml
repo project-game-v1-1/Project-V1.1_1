@@ -1,0 +1,39 @@
+﻿<Window x:Class="Игра_V1._1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Игра_V1._1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Go" Content="Go! Go! Go!" HorizontalAlignment="Left" Height="34" Margin="301,271,0,0" VerticalAlignment="Top" Width="195" Click="Go_Click_1" BorderBrush="#FF707070" IsEnabled="False" Opacity="0" FontSize="16"/>
+        <TextBox x:Name="Vs" HorizontalAlignment="Left" Height="103" Margin="354,163,0,0" TextWrapping="Wrap" Text="VS" VerticalAlignment="Top" Width="89" FontSize="72" OpacityMask="White" BorderBrush="White" IsEnabled="False" Opacity="0"/>
+        <Button x:Name="BA1" Content="Muda Muda" HorizontalAlignment="Left" Height="36" Margin="36,322,0,0" VerticalAlignment="Top" Width="83" IsEnabled="False" Click="BA1_Click_2" Background="#FFDDDDDD" BorderBrush="{x:Null}" Opacity="0"/>
+        <Button x:Name="Ba1" Content="ARROW" HorizontalAlignment="Left" Height="36" Margin="124,322,0,0" VerticalAlignment="Top" Width="83" IsEnabled="False" Click="Ba1_Click" Opacity="0"/>
+        <Button x:Name="BF1" Content="Fend off" HorizontalAlignment="Left" Height="36" Margin="212,322,0,0" VerticalAlignment="Top" Width="83" IsEnabled="False" Click="BF1_Click_1" BorderBrush="{x:Null}" Opacity="0"/>
+        <Button x:Name="BA2" Content="No noiriky" HorizontalAlignment="Left" Height="36" Margin="500,322,0,0" VerticalAlignment="Top" Width="83" Click="BA2_Click_2" BorderBrush="{x:Null}" IsEnabled="False" Opacity="0"/>
+        <Button x:Name="Ba2" Content="ARROW" HorizontalAlignment="Left" Height="36" Margin="588,322,0,0" VerticalAlignment="Top" Width="83" IsEnabled="False" Click="Ba2_Click" BorderBrush="{x:Null}" Opacity="0"/>
+        <Button x:Name="BF2" Content="Fend off" HorizontalAlignment="Left" Height="36" Margin="676,322,0,0" VerticalAlignment="Top" Width="83" IsEnabled="False" Click="BF2_Click" BorderBrush="{x:Null}" Opacity="0"/>
+        <TextBox x:Name="Text1" HorizontalAlignment="Left" Height="29" Margin="82,19,0,0" TextWrapping="Wrap" Text="Gold Experince" VerticalAlignment="Top" Width="179" BorderBrush="White" IsEnabled="False" Opacity="0"/>
+        <TextBox x:Name="Text2" HorizontalAlignment="Left" Height="29" Margin="524,25,0,0" TextWrapping="Wrap" Text="Kingo Krimson" VerticalAlignment="Top" Width="194" BorderBrush="#FFFCFDFF" IsEnabled="False" Opacity="0"/>
+        <Image HorizontalAlignment="Left" Height="204" Margin="74,80,0,0" VerticalAlignment="Top" Width="170"/>
+        <Image x:Name="P3" Margin="48,60,521,112" Source="Unit_Giorno_Giovanna_(To_survive...).png" Stretch="Fill" Opacity="0"/>
+        <Image x:Name="P2" Margin="557,78,99,112" Source="DiavoloProfile1.png" Stretch="Fill" IsEnabled="False" Opacity="0"/>
+        <Image x:Name="P4" Margin="54,39,539,114" Source="41.png" Stretch="Fill" Opacity="0" IsEnabled="False"/>
+        <ProgressBar x:Name="Pb1" HorizontalAlignment="Left" Height="31" Margin="36,363,0,0" VerticalAlignment="Top" Width="259" IsEnabled="False" ValueChanged="Pb1_ValueChanged" Opacity="0"/>
+        <ProgressBar x:Name="Pb2" HorizontalAlignment="Left" Height="31" Margin="500,363,0,0" VerticalAlignment="Top" Width="259" IsEnabled="False" ValueChanged="Pb2_ValueChanged_1" Opacity="0"/>
+        <Button x:Name="St" Content="START" HorizontalAlignment="Left" Height="96" Margin="289,141,0,0" VerticalAlignment="Top" Width="219" FontSize="72" Click="St_Click"/>
+        <Button x:Name="Sb1" Content="Kingo Krimson" HorizontalAlignment="Left" Height="46" Margin="69,156,0,0" VerticalAlignment="Top" Width="215" IsEnabled="False" Opacity="0" FontSize="16" Click="Sb1_Click"/>
+        <Button x:Name="Sb2" Content="WhiteSnake" HorizontalAlignment="Left" Height="46" Margin="513,156,0,0" VerticalAlignment="Top" Width="215" IsEnabled="False" Opacity="0" FontSize="16" Click="Sb2_Click" AutomationProperties.IsOffscreenBehavior="Onscreen" Panel.ZIndex="5"/>
+        <Button x:Name="Go2" Content="Go! Go! Go!" HorizontalAlignment="Left" Height="36" Margin="301,298,0,0" VerticalAlignment="Top" Width="195" FontSize="16" Click="Go2_Click" IsEnabled="False" Opacity="0"/>
+        <Image x:Name="P6" Margin="556,65,84,101" Source="Whitesnake_ASB123.jpg" Stretch="Fill" Opacity="0" IsEnabled="False"/>
+        <TextBox x:Name="Text3" HorizontalAlignment="Left" Height="29" Margin="565,40,0,0" TextWrapping="Wrap" Text="WhiteSnake" VerticalAlignment="Top" Width="194" RenderTransformOrigin="0.254,0.455" IsUndoEnabled="False" Background="White" BorderBrush="{x:Null}" Opacity="0"/>
+        <Button x:Name="BA3" Content="Iry Iry" HorizontalAlignment="Left" Margin="500,323,0,0" VerticalAlignment="Top" Width="83" Height="36" IsEnabled="False" Opacity="0" BorderBrush="{x:Null}" Click="BA3_Click"/>
+        <Button x:Name="Ba3" Content="C-MOON" HorizontalAlignment="Left" Margin="588,322,0,0" VerticalAlignment="Top" Width="83" Height="36" IsEnabled="False" Opacity="0" Click="Ba3_Click_1"/>
+        <Button x:Name="BF3" Content="SnakeBite" HorizontalAlignment="Left" Margin="676,322,0,0" VerticalAlignment="Top" Width="83" Height="36" IsEnabled="False" Opacity="0" BorderBrush="{x:Null}" Click="BF3_Click"/>
+        <ProgressBar x:Name="Pb3" HorizontalAlignment="Left" Height="31" Margin="500,363,0,0" VerticalAlignment="Top" Width="259" IsEnabled="False" Opacity="0" ValueChanged="Pb3_ValueChanged"/>
+        <Image x:Name="P7" Margin="543,78,74,106" Source="l_51ee5f39527bcспро.jpg" Stretch="Fill" Opacity="0" IsEnabled="False"/>
+
+    </Grid>
+</Window>
