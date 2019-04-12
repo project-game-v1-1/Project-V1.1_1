@@ -22,16 +22,9 @@ namespace Игра_V1._1
     /// </summary>
     public partial class MainWindow : Window
     {
-
-
-        public delegate void NextPrimeDelegate();
-
-        private MediaPlayer player;
-
         public MainWindow()
         {
             InitializeComponent();
-
         }
 
         private void Go_Click_1(object sender, RoutedEventArgs e)
